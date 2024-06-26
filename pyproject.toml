@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "storm"
+version = "0.1.0"
+description = "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations."
+authors = ["tbonza <tylers.pile@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+flair = "^0.13.1"
+nltk = "^3.8.1"
+dspy-ai = "^2.4.10"
+scikit-learn = "^1.5.0"
+chardet = "^5.2.0"
+sentence-transformers = "^3.0.1"
+transformers = "^4.41.2"
+scipy = "^1.14.0"
+fastchat = "^0.1.0"
+wikipedia = "^1.4.0"
+wikipedia-api = "^0.6.0"
+rouge-score = "^0.1.2"
+toml = "^0.10.2"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
